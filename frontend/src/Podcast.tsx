@@ -1,19 +1,15 @@
 import React from 'react';
 
-function TopBanner(props: any) {
+function Podcast(props: any) {
   return (
     <>
-      <div className="row">
-        <div className="col-3">
-          <img src="./logo192.png" alt="companyLogo"></img>
-        </div>
-
-        <div className="col align-self-center">
-          <h1>Podcast {props.saying}</h1>
-        </div>
+      <div className="container m-5">
+        <h2>
+          Podcast Link: <a href="https://baconsale.com">Baconsale Site</a>
+        </h2>
       </div>
     </>
   );
 }
 
-export default TopBanner;
+export default Podcast;

@@ -1,29 +1,22 @@
-import React, { useState } from 'react';
 //import logo from './logo.svg';
 import './App.css';
-import TopBanner from './Podcast';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Podcast from './Podcast';
 import MovieList from './Movies';
-
-function GoButton() {
-  const [count, setCount] = useState(0);
-
-  return (
-    <div>
-      <label>{count}</label>
-      <button onClick={() => setCount(count + 1)} type="button">
-        GO Button
-      </button>
-    </div>
-  );
-}
+import Home from './Home';
+import Navigation from './Navigation';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <TopBanner saying="oneName"></TopBanner>
-        <MovieList></MovieList>
-      </header>
+      <BrowserRouter>
+        <Navigation></Navigation>
+        <Routes>
+          <Route path="/" Component={Home} />
+          <Route path="/podcast" Component={Podcast} />
+          <Route path="/movieList" Component={MovieList} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
