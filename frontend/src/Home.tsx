@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Create the Home Page with the image and the description
 function Home(props: any) {
   return (
     <>

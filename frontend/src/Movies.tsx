@@ -1,15 +1,18 @@
 import { useState } from 'react';
 import data from './MovieData.json';
 
+// Create a variable with the JSON data
 const md = data.MovieData;
 
 function MovieList() {
+  // make the Variable into a state but since we aren't creating a new one yet, the set isn't being used yet
   const [listOfMovies, setListOfMovies] = useState(md);
 
   //const addMovie = () => {
   //  setListOfMovies([...md]);
   //};
 
+  // Return the HTML by mapping through the JSON file into a table
   return (
     <>
       <div className="container mt-5">

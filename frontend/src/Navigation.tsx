@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 
+// Creating the navigation for the top of the website
 function Navigation() {
   return (
     <nav className="navbar navbar-expand navbar-light bg-light">
