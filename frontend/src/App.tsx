@@ -6,7 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 //import all the different components
 import Podcast from './Podcast';
-import MovieList from './Movies';
+import MovieList from './movie/MovieList';
 import Home from './Home';
 import Navigation from './Navigation';
 
