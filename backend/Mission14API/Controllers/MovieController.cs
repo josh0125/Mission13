@@ -22,8 +22,8 @@ public class MovieController : ControllerBase
     public IEnumerable<Movies> Get()
     {
         var x = context.Movies
-            .Where(x => x.Edited == "Yes")
-            .OrderBy(x => x.Title)
+            .Where(x => x.edited == "Yes")
+            .OrderBy(x => x.title)
             .ToArray();
 
         return x;

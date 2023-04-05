@@ -1,26 +1,25 @@
-﻿<Properties StartupConfiguration="{B47EBAF5-CA1D-4DD7-B70E-20C48DC94317}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Mission14API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+﻿<Properties StartupConfiguration="{B47EBAF5-CA1D-4DD7-B70E-20C48DC94317}|api">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/MovieController.cs">
     <Files>
-      <File FileName="Movie.sqlite" IsPinned="True" />
-      <File FileName="Data/Movies.cs" Line="9" Column="1" />
-      <File FileName="Controllers/MovieController.cs" Line="26" Column="24" />
-      <File FileName="Program.cs" Line="24" Column="2" />
+      <File FileName="Data/Movies.cs" Line="21" Column="1" />
+      <File FileName="Controllers/MovieController.cs" Line="29" Column="18" />
+      <File FileName="Program.cs" Line="33" Column="1" />
       <File FileName="appsettings.json" Line="14" Column="1" />
-      <File FileName="Data/MovieDbContext.cs" Line="1" Column="1" />
+      <File FileName="Data/MovieDbContext.cs" Line="13" Column="2" />
+      <File FileName="Properties/launchSettings.json" Line="13" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Mission14API" expanded="True">
-            <Node name="Mission14API" expanded="True" selected="True">
-              <Node name="Controllers" expanded="True" />
+            <Node name="Mission14API" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="MovieController.cs" selected="True" />
+              </Node>
               <Node name="Data" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -28,4 +27,9 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Mission14API PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

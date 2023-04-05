@@ -5,16 +5,16 @@ namespace Mission14API.Data
 	{
 		[Key]
 		[Required]
-		public int MovieID { get; set; }
+		public int movieID { get; set; }
 
-		public string? Category { get; set; }
-		public string? Title { get; set; }
-        public double? Year { get; set; }
-        public string? Director { get; set; }
-        public string? Rating { get; set; }
-        public string? LentTo { get; set; }
-        public string? Notes { get; set; }
-        public string? Edited { get; set; }
+		public string? category { get; set; }
+		public string? title { get; set; }
+        public double? year { get; set; }
+        public string? director { get; set; }
+        public string? rating { get; set; }
+        public string? lentTo { get; set; }
+        public string? notes { get; set; }
+        public string? edited { get; set; }
 	
 	}
 }
